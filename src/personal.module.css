@@ -1,0 +1,557 @@
+.skillTable {
+	position: relative;
+	left: -10%;
+}
+
+
+.pro {
+	position: relative;
+	margin-bottom: 20%;
+}
+
+
+.metal:hover {
+	animation-play-state: paused;
+}
+
+.uncharted:hover {
+	animation-play-state: paused;
+}
+
+.last:hover {
+	animation-play-state: paused;
+}
+
+.last {
+	animation-name: expansion;
+	animation-duration: 1s;
+	animation-timing-function: linear;
+	animation-delay: -1.5s;
+	animation-iteration-count: infinite;
+	animation-direction: normal;
+}
+
+.uncharted {
+	animation-name: expansion;
+	animation-duration: 1s;
+	animation-timing-function: linear;
+	animation-delay: -2.25s;
+	animation-iteration-count: infinite;
+	animation-direction: normal;
+}
+
+.metal {
+	animation-name: expansion;
+	animation-duration: 1s;
+	animation-timing-function: linear;
+	animation-delay: 0s;
+	animation-iteration-count: infinite;
+	animation-direction: normal;
+}
+.slack {
+	animation-name: slack-anim;
+	animation-duration: 1s;
+	animation-timing-function: linear;
+	animation-delay: 0s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+}
+@keyframes slack-anim {
+	from {
+		transform: translate(-30%);
+	}
+	to {
+		transform: translate(30%);
+	}
+}
+
+.matlab {
+	animation-name: transparency;
+	animation-duration: 1s;
+	animation-timing-function: linear;
+	animation-delay: 0s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+}
+@keyframes transparency {
+	from {
+		opacity: 1;
+	}
+	to {
+		opacity: 0;
+	}
+}
+
+.reaction {
+	animation-name: rotation;
+	animation-duration: 1s;
+	animation-timing-function: linear;
+	animation-delay: 0s;
+	animation-iteration-count: infinite;
+	animation-direction: reverse;
+}
+.reaction:hover {
+	animation-play-state: paused;
+}
+
+.globe {
+	animation-name: globe-anim;
+	animation-duration: 1s;
+	animation-timing-function: linear;
+	animation-delay: 0s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+}
+
+.globe:hover {
+	animation-play-state: paused;
+}
+
+.matlab:hover {
+	animation-play-state: paused;
+}
+
+.slack:hover {
+	animation-play-state: paused;
+}
+@keyframes globe-anim {
+	from {
+		transform: rotateY(0deg);
+	}
+	50% {
+	}
+	66% {
+	}
+	to {
+		transform: rotateY(360deg);
+	}
+}
+
+@keyframes expansion {
+	from {
+		transform: scale(1);
+	}
+	50% {
+		transform: scale(1.1);
+	}
+	to {
+		transform: scale(1);
+	}
+}
+
+@keyframes bounce {
+        from {
+               transform: translate(0%, 0%);
+        }
+        50% {
+                transform: translate(0%, -160%);
+        }
+        67.5% {
+                transform: translate(0%, 0%);
+        }
+        75% {
+                transform: translate(0%, -80%);
+        }
+        87.5% {
+                transform: translate(0%, 0%);
+        }
+        94.25% {
+                transform: translate(0%, -40%);
+        }
+        to {
+                transform: translate(0%, 0%);
+        }
+}
+
+
+
+h1:hover {
+	font-size: 250%;
+	transition-property: font-size;
+	transition-duration: 0.2s;
+}
+
+h2:hover {
+	font-size: 170%;
+	transition-property: font-size;
+	transition-duration: 0.2s;
+}
+
+@keyframes rotation {
+        from {
+                transform: rotate(0deg);
+        }
+        to {
+                transform: rotate(360deg);
+        }
+}
+
+.profile:hover {
+	width: 30%;
+	transition-property: width;
+	transition-duration: 0.2s;
+	animation-play-state: paused;
+}
+
+.copyright {
+	color: #ffeabc;
+}
+
+.copyright:hover {
+	font-size: 120%;
+	transition-property: font-size;
+	transition-duration: 0.2s;
+}
+
+a {
+	color: #11999E;
+	margin: 5px 10px;
+	text-decoration: none;
+	
+}
+@keyframes font-expansion {
+	from {
+		font-size: 150%;
+	}
+	to {
+		font-size: 170%;
+	}
+}
+a:hover {
+	color: #EAF6F6;
+	font-size: 120%;
+	transition-property: font-size;
+	transition-duration: 0.2s;
+}
+.footer {
+	padding-top: 30px;
+	margin: 20px;
+}
+
+.btn {
+	z-index: 1000px;
+	background: #11cdd4;
+	background-image: linear-gradient(to right, #ffff00, #00ff00);
+	border-radius: 8px;
+	font-family: uroob;
+	color:#ffffff;
+	font-style: normal;
+	font-size: 200%;
+	padding: 10px 20px 10px 20px;
+	text-decoration: none;
+	animation-name: font-expansion;
+	animation-duration: 0.2s;
+	animation-timing-function: linear;
+	animation-delay: 0s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+}
+
+.btn:hover {
+	font-size: 230%;
+	transition-property: font-size;
+	transition-duration: 0.2s;
+	color: #eeee00;
+	background-image: linear-gradient(to bottom, #00ffff, #ffff00);
+	text-decoration: none;
+	animation-play-state: paused;
+}
+
+
+.contactMessage {
+}
+
+hr {
+	border: dotted #888888;
+	border-bottom: none;
+	width: 20%;
+	margin: 100px;
+}
+.tabu {
+	position: relative;
+	width: 100%;
+	margin-right: 20%;
+}
+
+.gameDetail {
+	display: none;
+	font-size: 150%;
+}
+.educ {
+	display: none;
+}
+.hr1 {
+	display: none;
+}
+
+.additional {
+	color: #ff6666;
+}
+
+.gameDetail:hover{
+	font-size: 160%;
+	transition-property: font-size;
+	transition-duration: 0.2s;
+}
+.contactMessage:hover{
+	font-size: 105%;
+	transition-property: font-size;
+	transition-duration: 0.2s;
+}
+
+
+
+.logo1 {
+	float: left;
+}
+
+.logo2 {
+	float: right;
+}
+
+
+.learn {
+	display: none;
+	text-align: left;
+	line-height: 2;
+	color: #ffff88;
+}
+
+.learn:hover{
+	font-size: 105%;
+	transition-property: font-size;
+	transition-duration: 0.2s;
+}
+
+.skillTable {
+	font-size: 100%;
+	width: 25%;
+	}
+
+.skillInfo {
+	margin-bottom: 20%;
+	text-align: left;
+	line-height: 2;
+	color: #ffffff;
+        border-radius: 2%;
+        background-color: rgba(0, 0, 0, 0.35);
+}
+
+.skilltext:hover{
+	font-size: 105%;
+	transition-property: font-size;
+	transition-duration: 0.2s;
+}
+.skilltitle {
+	color: #ffffff;
+}
+
+.profileInfo {
+	text-align: left;
+	line-height: 2;
+	color: #eeffff;
+	border-radius: 50%;
+	background-color: rgba(256, 256, 256, 0.7);
+	height: 700px;
+	
+}
+
+.protext {
+	color: #222222;
+}
+
+.protext:hover {
+	font-size: 105%;
+	transition-property: font-size;
+	transition-duration: 0.2s;
+
+}
+.other {
+	width: 25%;
+	margin: 3%;
+	border-radius: 10%;
+}
+.other:hover {
+	width: 30%;
+	transition-property: width;
+	transition-duration: 0.2s;
+}
+
+.logo {
+	width: 25%;
+	margin: 3%;
+	border-radius: 10%;
+}
+
+.logo:hover {
+	width: 30%;
+	transition-property: width;
+	transition-duration: 0.2s;
+}
+
+.gif {
+	display: none;
+	width: 25.5%;
+	margin: 3%;
+	border-radius: 10%;
+	float: top;
+}
+.gif:hover {
+	width: 80%;
+	transition-property: width;
+	transition-duration: 0.2s;
+}
+h1 {
+	color: #555555;
+	font-weight: 100;
+	font-family: z003;
+}
+h2 {
+	color: #555555;
+	font-weight: 300;
+	margin-left: 5%;
+	font-family: purisa;
+}
+.theme2 {
+	display: none;
+}
+
+.bottomContainer {
+	position: relative;
+	text-align: center;
+	padding-top: 0px;
+	margin-left: 30%;
+	margin-right: 20%;
+	font-family: uroob;
+	font-style: italic;
+}
+.middleContainer{
+	position: relative;
+	padding-top: 400px;
+	margin-left: 30%;
+	margin-right: 20%;
+	font-family: ani;
+	font-size: 130%;
+	font-style: italic;
+}
+
+
+	.profile {
+		margin-top: 2%;
+		margin-bottom: 3%;
+		margin-right: 3%;
+		width: 25%;
+		float: left;
+		border-radius: 1000px;
+		animation-name: expansion;
+		animation-duration: 0.7s;
+		animation-timing-function: linear;
+		animation-delay: 0s;
+		animation-iteration-count: infinite;
+		animation-direction: normal;
+	}
+
+@keyframes profile-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.skill1 {
+	color: #000000;
+	height: 50px;
+	animation-name: bounce;
+	animation-duration: 1s;
+	animation-timing-function: linear;
+	animation-delay: 0s;
+	animation-iteration-count: infinite;
+	animation-direction: normal;
+}
+.skill1:hover {
+	height: 60px;
+	animation-play-state: paused;
+}
+
+.skill2 {
+	color: #000000;
+	height: 50px;
+	animation-name: bounce;
+	animation-duration: 1s;
+	animation-timing-function: linear;
+	animation-delay: 0.1s;
+	animation-iteration-count: infinite;
+	animation-direction: normal;
+}
+.skill2:hover {
+	height: 60px;
+	animation-play-state: paused;
+}
+
+.skill3 {
+	color: #000000;
+	height: 50px;
+	animation-name: bounce;
+	animation-duration: 1s;
+	animation-timing-function: linear;
+	animation-delay: 0.2s;
+	animation-iteration-count: infinite;
+	animation-direction: normal;
+}
+.skill3:hover {
+	height: 60px;
+	animation-play-state: paused;
+}
+
+.skill4 {
+	color: #000000;
+	height: 50px;
+	animation-name: bounce;
+	animation-duration: 1s;
+	animation-timing-function: linear;
+	animation-delay: 0.3s;
+	animation-iteration-count: infinite;
+	animation-direction: normal;
+}
+.skill4:hover {
+	height: 60px;
+	animation-play-state: paused;
+}
+
+.skill5 {
+	color: #000000;
+	height: 50px;
+	animation-name: bounce;
+	animation-duration: 1s;
+	animation-timing-function: linear;
+	animation-delay: 0.4s;
+	animation-iteration-count: infinite;
+	animation-direction: normal;
+}
+.skill5:hover {
+	height: 60px;
+	animation-play-state: paused;
+}
+@media(max-width:599px) {
+	.skills {
+		position: relative;
+		margin-top: 20%;
+		top: 450px;
+	}
+	.profileInfo {
+		height: 1200px;
+	}
+	.skilltable {
+		position: relative;
+	}
+	.bottomContainer {
+		position: relative;
+		top: 300px;
+	}
+	.skillTable {
+		left: -30%;
+	}
+}

@@ -1,0 +1,152 @@
+.header:hover {
+	font-size: 600%;
+	transition-property: font-size;
+	transition-duration: 0.2s;
+	transition-timing-function: ease-in-out;
+	animation-play-state: paused;
+}
+.headerContent:hover {
+	font-size: 2.90rem;
+	transition-property: font-size;
+	transition-duration: 0.2s;
+	transition-timing-function: ease-in-out;
+	animation-play-state: paused;
+
+}
+@keyframes diagonal {
+	from {
+		transform: rotateY(0deg);
+	}	
+	to {
+		transform: rotateY(95deg);
+	}
+}
+@keyframes shrinkage {
+from {
+	transform: scale(1);
+}
+50% {
+	transform: scale(0.8);
+}
+to {
+	transform: scale(1);
+}
+}
+
+
+.topRed:hover {
+	width: 20%;
+	transition-property: width;
+	transition-duration: 0.2s;
+}
+
+.bottomRed:hover {
+	width: 20%;
+	transition-property: width;
+	transition-duration: 0.2s;
+}
+
+.headColor {
+	color: #66bfbf;
+}
+.header {
+	font-size: 9.9rem;
+	font-weight: 1;
+	width: 40%;
+	margin: auto auto;
+	padding-top: 350px;
+	font-family: karumbi;
+	line-height: 0.5;
+	animation-name: diagonal;
+	animation-duration: 2s;
+	animation-timing-function: linear;
+	animation-delay: 0s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+}
+@keyframes bounce {
+	from {
+	       transform: translate(0%, 0%);
+	}
+	50% {
+		transform: translate(0%, -20%);
+	}
+	67.5% {
+		transform: translate(0%, 0%);
+	}
+	75% {
+		transform: translate(0%, -10%);
+	}
+	87.5% {
+		transform: translate(0%, 0%);
+	}
+	94.25% {
+		transform: translate(0%, -5%);
+	}
+	to {
+		transform: translate(0%, 0%);
+	}
+}
+.headerContent {
+	font-weight: 1;
+	color: #bfbf66;
+	font-family: purisa;
+	font-size: 2.5rem;
+	line-height: 1.2;
+	animation-name: shrinkage;
+	animation-duration: 1s;
+	animation-timing-function: linear;
+	animation-delay: 0s;
+	animation-iteration-count: infinite;
+	animation-direction: normal;
+}
+.topRed{
+	display: none;
+	position: absolute;
+	width: 15%;
+	right: 0px;
+	border-radius: 15%;
+}
+.bottomRed {
+	display: none;
+	position: absolute;
+	width: 15%;
+	left: 0px;
+	top:500px;
+	border-radius: 15%;
+}
+.firstTop {
+	margin-left: 20%;
+	margin-right: 10%;
+	position: relative;
+	text-align: center;
+	font-family: Lato Hairline, z003, ani, gubbi, freemono ,purisa, uroob, karumbi;
+	font-size: 30px;
+	color: #ffbbff;
+}
+
+
+.theme {
+	position: fixed;
+	z-index: 0;
+	width: 120%;
+	height: 100%;
+	animation-name: back-anim;
+	animation-duration: 20s;
+	animation-timing-function: linear;
+	animation-delay: 0s;
+	animation-iteration-count: infinite;
+	animation-direction: normal;
+}
+@keyframes back-anim {
+	from {
+		left: -0%; 
+	}
+	50% {
+		left: -10%;
+	}
+	to {
+		left: -20%;
+	}
+}
+
