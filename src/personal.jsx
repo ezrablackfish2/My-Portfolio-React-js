@@ -150,7 +150,7 @@ function Personal() {
 			<a href="https://ezrayeneneh1992@gmail.com">Gmail</a>
 			<a className="footer-link" href="https://www.linkedin.com/in/ezra-yeneneh-a07203260/">LinkedIn</a>
 			<a className="footer-link" href="https://discord.gg/afc7zd4S">Discord</a>
-			<a className="footer-link" href="https://www.imdb-top-60-video-games.com/">Website</a>
+			<a className="footer-link" href="https://imdb-top-60-video-games-react-ezra.vercel.app/">Website</a>
 			</div>
 			<p className={styles.copyright}>© 2023 ezra yeneneh.</p>
 			</div>
