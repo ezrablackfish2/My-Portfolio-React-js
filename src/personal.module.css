@@ -234,6 +234,7 @@ a:hover {
 	background-image: linear-gradient(to right, #ffff00, #00ff00);
 	border-radius: 8px;
 	font-family: uroob;
+	font-family: 'Itim', cursive;
 	color:#ffffff;
 	font-style: normal;
 	font-size: 200%;
@@ -411,6 +412,7 @@ h2 {
 	font-weight: 300;
 	margin-left: 5%;
 	font-family: purisa;
+	font-family: 'Gugi', cursive;
 }
 .theme2 {
 	display: none;
@@ -423,6 +425,7 @@ h2 {
 	margin-left: 30%;
 	margin-right: 20%;
 	font-family: uroob;
+	font-family: 'Itim', cursive;
 	font-style: italic;
 }
 .middleContainer{
@@ -431,6 +434,7 @@ h2 {
 	margin-left: 30%;
 	margin-right: 20%;
 	font-family: ani;
+	font-family: 'Sedgwick Ave Display', cursive;
 	font-size: 130%;
 	font-style: italic;
 }

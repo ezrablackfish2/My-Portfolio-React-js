@@ -56,6 +56,7 @@ to {
 	margin: auto auto;
 	padding-top: 350px;
 	font-family: karumbi;
+	font-family: 'Chakra Petch', sans-serif;
 	line-height: 0.5;
 	animation-name: diagonal;
 	animation-duration: 2s;
@@ -91,6 +92,7 @@ to {
 	font-weight: 1;
 	color: #bfbf66;
 	font-family: purisa;
+	font-family: 'Gugi', cursive;
 	font-size: 2.5rem;
 	line-height: 1.2;
 	animation-name: shrinkage;
@@ -121,6 +123,7 @@ to {
 	position: relative;
 	text-align: center;
 	font-family: Lato Hairline, z003, ani, gubbi, freemono ,purisa, uroob, karumbi;
+	font-family: 'Playball', cursive;
 	font-size: 30px;
 	color: #ffbbff;
 }
